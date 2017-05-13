@@ -178,15 +178,30 @@ body, html {
 .grid-mid {
     margin: 0 2em;
 }
-.map{
+
+.prem {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #292C34;
+}
+
+.we_help {
+    background-color: #F4F4F4;
+    width: 1170px;
+    height: 500px
+}
+
+.map {
     margin-left: 25%;
     position: absolute;
     width: 800px;
     height: 300px;
 
 }
+
 .fig {
-    background: url(../images/imgonline-com-ua-Resize-ZMRq98QuVcGzpXm.jpg) no-repeat 7em 0em;
+    background: url(../images/imgonline-com-ua-Resize-ZMRq98QuVcGzpXm.jpg) no-repeat 5em 0em;
     display: block;
     width: 100%;
     height: 165px;
@@ -202,7 +217,7 @@ body, html {
 }
 
 .fig1 {
-    background: url(../images/image2.jpg) no-repeat 7em 0em;
+    background: url(../images/image2.jpg) no-repeat 5em 0em;
     display: block;
     width: 100%;
     height: 165px;
@@ -218,7 +233,7 @@ body, html {
 }
 
 .fig2 {
-    background: url(../images/image3.jpg) no-repeat 7em 0em;
+    background: url(../images/image3.jpg) no-repeat 5em 0em;
     display: block;
     width: 100%;
     height: 165px;
@@ -255,7 +270,7 @@ body, html {
 }
 
 .banner-bottom-text {
-    margin: 6em 0;
+    margin: 3em 0;
     text-align: center;
 }
 
@@ -278,7 +293,7 @@ body, html {
 
 .banner-bottom-grid {
     float: left;
-    width: 30%;
+    width: 31%;
     text-align: center;
 }
 
@@ -374,11 +389,20 @@ body, html {
 
 .about-grid {
     float: left;
-    width: 28%;
+    width: 100%;
+}
+
+.feedbackImg {
+    width: 15%;
+    float: right;
 }
 
 .john {
     float: left;
+}
+
+.about-grid-john {
+    min-height: 380px;
 }
 
 .john h4 {
@@ -441,17 +465,18 @@ body, html {
 }
 
 .about-grids {
-    margin: 5em 0;
+    margin: 25px 0;
 }
 
 .about-grid-john {
     background: #fff;
+
     box-shadow: 0px 2px 0px #D4D5D9;
     padding: 1em 1em;
 }
 
 .about-grid img {
-    width: 100%;
+    width: 20%;
 }
 
 p.para {
@@ -490,7 +515,7 @@ p.para {
 }
 
 .about-mid {
-    margin: 0 5em;
+    margin: 8px 0;
 }
 
 /*-- //about --*/
@@ -517,7 +542,7 @@ p.para {
 .price p {
     color: #5E6C76;
     font-size: 20px;
-    margin: 1em 0 0em;
+    margin: 0 0 0 0;
 }
 
 .price p span {
@@ -530,9 +555,11 @@ p.para {
     width: 30%;
     text-align: center;
 }
+
 .fa fa-angle-left {
     background-color: #1bc5a3;
 }
+
 /*.basic:hover {
     transform: scale(1.1);
     transition: .5s all;
@@ -679,6 +706,7 @@ p.para {
 }
 
 .forma {
+    margin-right: 20px;
     border-radius: 5px;
     width: 300px;
     height: 100%;
@@ -702,6 +730,7 @@ p.para {
 .footer {
     background: #292C34;
     padding: 4em 0;
+    min-height: 430px;
 }
 
 .footer-left {
@@ -742,10 +771,12 @@ p.para {
     text-decoration: none;
     color: #97999B;
 }
-.footer-left-text h2{
+
+.footer-left-text h2 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 .footer-right {
     position: absolute;
     float: left;
@@ -774,9 +805,11 @@ p.para {
     -o-transition: .5s all;
     -ms-transition: .5s all;
 }
-.footer-right p{
-    text-size:12px !important;
+
+.footer-right p {
+    text-size: 12px !important;
 }
+
 .footer-right ul li a.facebook:hover {
     background: url(../images/sp-img.png) no-repeat 0px -34px;
     display: block;
@@ -824,6 +857,12 @@ p.para {
 .banner-bottom1-left {
     float: left;
     width: 70%;
+}
+
+.banner-bottom {
+    /*
+    background-color: #F4F4F4;
+    */
 }
 
 .banner-bottom1-left img {
@@ -1540,7 +1579,7 @@ p.para {
     }
 
     .banner-info {
-        margin-top: 5em;
+        margin-top: 0em;
     }
 
     .fig {
@@ -1588,6 +1627,47 @@ p.para {
     .fig1 {
         background: url(../images/4.png) no-repeat 3.5em 0em;
     }
+    #testimonials-ul{
+        height: 500px;
+        width: 1400vw;
+    }
+    .about-grid img {
+        width: 50%;
+        float: right;
+    }
+
+    .map {
+        display: none;
+        margin-left: 25%;
+        position: absolute;
+        width: 800px;
+        height: 300px;
+
+    }
+    .testimonials ul li p {
+        height: auto;
+        margin: 1rem auto;
+        width: 99%;
+    }
+
+    p.para {
+        overflow: hidden;
+        height: auto;
+        line-height: 22px;
+        width: 100%;
+    }
+
+    .footer-right {
+        position: absolute;
+        float: left;
+        margin-top: 242px;
+        width: 90%;
+    }
+
+    .footer-left {
+        float: left;
+        width: 100%;
+    }
 
     .fig {
         background: url(../images/2.png) no-repeat 3.5em 0em;
@@ -1598,7 +1678,19 @@ p.para {
     }
 
     .banner-bottom-left {
-        width: 31%;
+        width: 100%;
+    }
+
+    .footer {
+        width: 376px;
+
+    }
+
+    .prem {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 25px;
+        color: #292C34;
     }
 
     .top-nav {
@@ -1668,16 +1760,45 @@ p.para {
 
     .banner {
         min-height: 270px;
-        background: url(../images/medicina2.jpg) no-repeat 0px -60px;
+        background: url(../images/medicina3.jpg) no-repeat 0px 4px;
+    }
+
+    .forma {
+        margin-top: 5px;
+        margin-right: 0px;
+        border-radius: 5px;
+        width: 348px;
+        height: 100%;
+        float: right;
+        background-color: #5DC9C9;
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 28px;
+        color: #292C34
+    }
+
+    .banner-bottom-grid {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .we_help {
+        background-color: #F4F4F4;
+        width: 350px;
+        height: 500px
     }
 
     .banner-info h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .banner-info p {
         margin: .5em 0 2em;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .more a {
@@ -1757,10 +1878,18 @@ p.para {
     }
 
     .more a {
-        padding: 8px 0px;
-        width: 36%;
-        height: 40px;
+        margin-left: 135px;
+        margin-bottom: 115px;
+        padding: 0px 0px;
+        width: 26%;
+        height: 33px;
         background: url(../images/1.png) no-repeat 9em 1em #5DC9C9;
+    }
+
+    #about p {
+        font-size: 15px;
+        line-height: 1.72222;
+        margin: 0 0 15px;
     }
 
     .more a:hover {
@@ -1769,9 +1898,13 @@ p.para {
 
     .banner-bottom-left p {
         overflow: hidden;
-        height: 22px;
+        height: 135px;
         margin: 0;
-        font-size: 13px;
+        font-size: 15px;
+    }
+
+    .helpText {
+        font-size: 15px;
     }
 
     .banner-bottom-left h3 {
@@ -1779,19 +1912,22 @@ p.para {
     }
 
     .fig {
-        background: url(../images/2.png) no-repeat 2.9em 0em;
+        height: 80px;
+        background: url(../images/imaget.jpg) no-repeat 50% 0em;
     }
 
     .fig1 {
-        background: url(../images/4.png) no-repeat 3em 0em;
+        height: 80px;
+        background: url(../images/imaget2.jpg) no-repeat 50% 0em;
     }
 
     .fig2 {
-        background: url(../images/3.png) no-repeat 2.5em 0em;
+        height: 80px;
+        background: url(../images/imaget3.png) no-repeat 50% 0em;
     }
 
     .banner-bottom {
-        padding: 2em 0 2em;
+        padding: 0em 0 2em;
     }
 
     .banner-bottom-text {
@@ -1800,6 +1936,14 @@ p.para {
 
     .banner-bottom-text p {
         letter-spacing: 0px;
+        width: 343px;
+        letter-spacing: 0px;
+        color: #5DC9C9;
+        margin: 0;
+        font-size: 27px;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        font-weight: 300;
     }
 
     .grid-mid {
@@ -1808,6 +1952,7 @@ p.para {
 
     .banner-bottom-grid h3 {
         font-size: 17px;
+        margin-bottom: 10px;
     }
 
     .banner-bottom-grid p {
@@ -1903,8 +2048,9 @@ p.para {
 
     .price p {
         overflow: hidden;
-        height: 45px;
+        height: 20px;
         font-size: 15px;
+        margin: 5px 0 0 0 ;
     }
 }
 
@@ -2299,7 +2445,7 @@ p.para {
 /*11111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
 
 .testimonials {
-    background-color: #e8e8e5;
+    background-color: white;
     overflow: hidden;
     width: 100%;
 }
@@ -2322,9 +2468,10 @@ p.para {
 }
 
 .testimonials ul li p {
-    max-width: 600px;
+    max-width: 900px;
     margin: 1rem auto;
-    width: 50%;
+    width: 100%;
+    font-size: 15px;
 }
 
 .testimonials-control {
@@ -2347,7 +2494,10 @@ p.para {
     cursor: pointer;
     padding: 1.3rem;
 }
-
+#testimonials-ul{
+    /*height: auto;*/
+    width: 1400vw;
+}
 
 
 
