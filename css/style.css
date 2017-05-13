@@ -1793,7 +1793,7 @@ p.para {
     .we_help {
         background-color: #F4F4F4;
         width: 350px;
-        height: 500px
+        height: auto;
     }
 
     .banner-info h2 {
@@ -1902,8 +1902,8 @@ p.para {
 
     .banner-bottom-left p {
         overflow: hidden;
-        height: 135px;
-        margin: 0;
+        height: auto;
+        margin: 0 0 25px 0;
         font-size: 15px;
     }
 
@@ -1916,26 +1916,26 @@ p.para {
     }
 
     .fig {
-        height: 80px;
-        background: url(../images/imaget.jpg) no-repeat 50% 0em;
+        height: 130px;
+        background: url(../images/amaget.jpg) no-repeat 50% 0em;
     }
 
     .fig1 {
-        height: 80px;
-        background: url(../images/imaget2.jpg) no-repeat 50% 0em;
+        height: 130px;
+        background: url(../images/amaget2.jpg) no-repeat 50% 0em;
     }
 
     .fig2 {
-        height: 80px;
-        background: url(../images/imaget3.png) no-repeat 50% 0em;
+        height: 130px;
+        background: url(../images/amaget3.jpg) no-repeat 50% 0em;
     }
 
     .banner-bottom {
-        padding: 0em 0 2em;
+        padding: 0em 0 0em;
     }
 
     .banner-bottom-text {
-        margin: 3em 0;
+        margin: 1em 0;
     }
 
     .banner-bottom-text p {
@@ -1951,7 +1951,7 @@ p.para {
     }
 
     .grid-mid {
-        margin: 0 1em;
+        margin: 0 0;
     }
 
     .banner-bottom-grid h3 {
