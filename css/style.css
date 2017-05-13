@@ -1635,7 +1635,11 @@ p.para {
         width: 50%;
         float: right;
     }
-
+    .footer {
+        background: #292C34;
+        padding: 10зч 0;
+        min-height: 430px;
+    }
     .map {
         display: none;
         margin-left: 25%;
